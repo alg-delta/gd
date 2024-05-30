@@ -1,0 +1,80 @@
+.wrapper {
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    font-family: Verdana;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	display: block;
+	text-decoration: none;
+	color: pink;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.menu a:hover {
+	color: lime;
+}
+
+.menu a.active {
+	color: red;
+}
+
+.header {
+	display: flex;
+    align-items: center;
+	gap: 150px;
+}
+
+.logo {
+	width: 200px;
+	height: 250px;
+}
+
+.scream {
+	background-image: url(img/ААААА.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.favourite {
+	color: red;
+}
+
+.aboutgame {
+	font-size: 25px;
+}
+
+.favorite {
+	color: lime;
+}
+
+.god {
+	float: right;
+}
+
+.Golovna {
+	font-size: 35px;
+}
+
+.OIP {
+	width: 420px;
+}
